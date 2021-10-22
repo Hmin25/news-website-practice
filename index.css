@@ -30,7 +30,7 @@ nav .mainMenu li a {
   padding-top: 35px;
   text-decoration: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.0rem;
 }
 
 nav .mainMenu li a:hover {
@@ -114,7 +114,7 @@ nav .mainMenu .closeMenu,
   nav .mainMenu li a:hover {
     background: none;
     color: #ff6600;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
   }
   .icons i {
     display: inline-block;
@@ -292,16 +292,7 @@ article img {
 }
 
 /*---- SET POSITION FOR SLIDE ----*/
-#slide1:checked ~ .slider-prev-next-control label:nth-child(5)::after,
-#slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after,
-#slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after,
-#slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after,
-#slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after,
-#slide5:checked ~ .slider-prev-next-control label:nth-child(1)::after,
-#slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after,
-#slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after,
-#slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after,
-#slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after {
+#slide1:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(1)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after {
   font-family: FontAwesome;
   font-style: normal;
   font-weight: normal;
@@ -313,57 +304,33 @@ article img {
   color: #777;
 }
 
-#slide5:checked ~ .slider-prev-next-control label:nth-child(1)::after,
-#slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after,
-#slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after,
-#slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after,
-#slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after {
+#slide5:checked ~ .slider-prev-next-control label:nth-child(1)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide1:checked ~ .slider-prev-next-control label:nth-child(2)::after {
   content: "";
   padding-left: 15px;
 }
 
-#slide5:checked ~ .slider-prev-next-control label:nth-child(1),
-#slide4:checked ~ .slider-prev-next-control label:nth-child(5),
-#slide3:checked ~ .slider-prev-next-control label:nth-child(4),
-#slide2:checked ~ .slider-prev-next-control label:nth-child(3),
-#slide1:checked ~ .slider-prev-next-control label:nth-child(2) {
+#slide5:checked ~ .slider-prev-next-control label:nth-child(1), #slide4:checked ~ .slider-prev-next-control label:nth-child(5), #slide3:checked ~ .slider-prev-next-control label:nth-child(4), #slide2:checked ~ .slider-prev-next-control label:nth-child(3), #slide1:checked ~ .slider-prev-next-control label:nth-child(2) {
   display: block;
   float: right;
   margin-right: 5px;
 }
 
-#slide1:checked ~ .slider-prev-next-control label:nth-child(5),
-#slide5:checked ~ .slider-prev-next-control label:nth-child(4),
-#slide4:checked ~ .slider-prev-next-control label:nth-child(3),
-#slide3:checked ~ .slider-prev-next-control label:nth-child(2),
-#slide2:checked ~ .slider-prev-next-control label:nth-child(1) {
+#slide1:checked ~ .slider-prev-next-control label:nth-child(5), #slide5:checked ~ .slider-prev-next-control label:nth-child(4), #slide4:checked ~ .slider-prev-next-control label:nth-child(3), #slide3:checked ~ .slider-prev-next-control label:nth-child(2), #slide2:checked ~ .slider-prev-next-control label:nth-child(1) {
   display: block;
   float: left;
   margin-left: 5px;
 }
 
-#slide1:checked ~ .slider-prev-next-control label:nth-child(5)::after,
-#slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after,
-#slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after,
-#slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after,
-#slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after {
+#slide1:checked ~ .slider-prev-next-control label:nth-child(5)::after, #slide5:checked ~ .slider-prev-next-control label:nth-child(4)::after, #slide4:checked ~ .slider-prev-next-control label:nth-child(3)::after, #slide3:checked ~ .slider-prev-next-control label:nth-child(2)::after, #slide2:checked ~ .slider-prev-next-control label:nth-child(1)::after {
   content: "";
   padding-left: 8px;
 }
 
-#slide5:checked ~ .slider-dot-control label:nth-child(5),
-#slide4:checked ~ .slider-dot-control label:nth-child(4),
-#slide3:checked ~ .slider-dot-control label:nth-child(3),
-#slide2:checked ~ .slider-dot-control label:nth-child(2),
-#slide1:checked ~ .slider-dot-control label:nth-child(1) {
+#slide5:checked ~ .slider-dot-control label:nth-child(5), #slide4:checked ~ .slider-dot-control label:nth-child(4), #slide3:checked ~ .slider-dot-control label:nth-child(3), #slide2:checked ~ .slider-dot-control label:nth-child(2), #slide1:checked ~ .slider-dot-control label:nth-child(1) {
   background: #333;
 }
 
-#slide5:checked ~ .slider-wrapper article:nth-child(5) .info,
-#slide4:checked ~ .slider-wrapper article:nth-child(4) .info,
-#slide3:checked ~ .slider-wrapper article:nth-child(3) .info,
-#slide2:checked ~ .slider-wrapper article:nth-child(2) .info,
-#slide1:checked ~ .slider-wrapper article:nth-child(1) .info {
+#slide5:checked ~ .slider-wrapper article:nth-child(5) .info, #slide4:checked ~ .slider-wrapper article:nth-child(4) .info, #slide3:checked ~ .slider-wrapper article:nth-child(3) .info, #slide2:checked ~ .slider-wrapper article:nth-child(2) .info, #slide1:checked ~ .slider-wrapper article:nth-child(1) .info {
   opacity: 1;
 }
 
