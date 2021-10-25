@@ -269,16 +269,16 @@
 
         <div class="grid-trending-article-small">
 
-          <div class="item1" style="grid-row: 1 / span 2; ">
+          <div style="grid-row: 1 / span 2; ">
             <h1>1</h1>
           </div>
 
-          <div class="item2">
+          <div>
             <h5>時事</h5>
           </div>
 
-          <div class="item3">
-            <h4 style="color: #111111; font-weight: 600; font-family: Noto serif tc, serif; font-size: 1.2em; line-height: 1.6;">
+          <div>
+            <h4 class="trending-article">
               中共「六中全會」：在傳統大換屆前夕，替習近平「又連任了」找個說法，就從定調歷史做起？（BBC News 中文）</h4>
           </div>
 
@@ -288,16 +288,16 @@
 
         <div class="grid-trending-article-small">
 
-          <div class="item1" style="grid-row: 1 / span 2; width: 20%;">
+          <div style="grid-row: 1 / span 2; width: 20%;">
             <h1>2</h1>
           </div>
 
-          <div class="item2">
+          <div>
             <h5>時事</h5>
           </div>
 
-          <div class="item3">
-            <h4 style="color: #111111; font-weight: 600; font-family: Noto serif tc, serif; font-size: 1.2em; line-height: 1.6;">
+          <div>
+            <h4 class="trending-article">
               權勢性侵醜聞又一樁：加國 80 歲時裝大亨性侵事件，與背後的巨大黑幕</h4>
           </div>
 
@@ -307,16 +307,16 @@
 
         <div class="grid-trending-article-small">
 
-          <div class="item1" style="grid-row: 1 / span 2; width: 20%;">
+          <div style="grid-row: 1 / span 2; width: 20%;">
             <h1>3</h1>
           </div>
 
-          <div class="item2">
+          <div>
             <h5>學習</h5>
           </div>
 
-          <div class="item3">
-            <h4 style="color: #111111; font-weight: 600; font-family: Noto serif tc, serif; font-size: 1.2em; line-height: 1.6;">
+          <div>
+            <h4 class="trending-article">
               「能夠上台大，為甚麼不去？」──我和雙胞胎弟弟的真實故事</h4>
           </div>
 
@@ -326,16 +326,16 @@
 
         <div class="grid-trending-article-small">
 
-          <div class="item1" style="grid-row: 1 / span 2; width: 20%;">
+          <div style="grid-row: 1 / span 2; width: 20%;">
             <h1>4</h1>
           </div>
 
-          <div class="item2">
+          <div>
             <h5>歷史</h5>
           </div>
 
-          <div class="item3">
-            <h4 style="color: #111111; font-weight: 600; font-family: Noto serif tc, serif; font-size: 1.2em; line-height: 1.6;">
+          <div>
+            <h4 class="trending-article">
               【歐洲連線──歷史篇】當情報文件被解密，你會調閱個人檔案，還是與過去和解？──前東德人的淚水與歡呼</h4>
           </div>
 
@@ -345,16 +345,16 @@
 
         <div class="grid-trending-article-small">
 
-          <div class="item1" style="grid-row: 1 / span 2; width: 20%;">
+          <div style="grid-row: 1 / span 2; width: 20%;">
             <h1>5</h1>
           </div>
 
-          <div class="item2">
+          <div>
             <h5>學習</h5>
           </div>
 
-          <div class="item3">
-            <h4 style="color: #111111; font-weight: 600; font-family: Noto serif tc, serif; font-size: 1.2em; line-height: 1.6;">
+          <div>
+            <h4 class="trending-article">
               撕掉「好成績」標籤，我還剩下什麼？──若妳「想念」北一女，讓我告訴妳它教我的 5 堂課</h4>
           </div>
 
@@ -364,16 +364,16 @@
 
         <div class="grid-trending-article-small">
 
-          <div class="item1" style="grid-row: 1 / span 2; width: 20%;">
+          <div style="grid-row: 1 / span 2; width: 20%;">
             <h1>6</h1>
           </div>
 
-          <div class="item2">
+          <div>
             <h5>評論</h5>
           </div>
 
-          <div class="item3">
-            <h4 style="color: #111111; font-weight: 600; font-family: Noto serif tc, serif; font-size: 1.2em; line-height: 1.6;">
+          <div>
+            <h4 class="trending-article">
               嬰兒有道德感嗎？──當我深入挖掘寶寶研究的世界，很快就樂觀不起來</h4>
           </div>
 
@@ -395,21 +395,25 @@
     </div>
 
     <div style="display:flex; flex-direction: row;">
-      <main class="latest-weekly-article">
-        <article class="latest-weekly-article-img">
-          <img alt src="https://storage.googleapis.com/crossing-cms-cwg-tw/ad/202108/ad-611348d19bb45.jpg">
-        </article>
+      <div class="grid-trending-article">
 
-        <article class="latest-weekly-article-textbox">
-          <div class="latest-weekly-article-text">
-            <h2>2021 全球焦點在東京</h2>
-            <h3>
-              東京奧運的結束不是句點，全球在疫情下為奧運做出的努力、在日本帶來的影響——無論是社會文化抑或科技趨勢，都將持續改變著東京的現在與未來。身處世界各地的你我，都是東京故事的一份子。</text>
-              <!-- <button>Read more..</button> -->
+        <div style="display: grid;
+        grid-template-columns: repeat(2, 1fr);">
+
+          <div style="grid-row: 1 / span 2;">
+            <img width="100%" height="100%" src="./co_logo.png" />
           </div>
-        </article>
-      </main>
-    </div>
+
+          <div>
+            <h5>時事</h5>
+          </div>
+
+          <div>
+            <h4 class="trending-article">
+              中共「六中全會」：在傳統大換屆前夕，替習近平「又連任了」找個說法，就從定調歷史做起？（BBC News 中文）</h4>
+          </div>
+
+        </div>
   </div>
   <!-- End footer -->
 

@@ -28,7 +28,7 @@ h2 {
 }
 
 h2:hover,
-h3:hover {
+h3:hover{
   color: #ff6600;
   cursor: pointer;
 }
@@ -44,6 +44,14 @@ h4 {
   opacity: 80%;
   font-weight: 300;
   font-size: 16px;
+}
+
+.trending-article{
+  color: #111111; font-weight: 600; font-family: Noto serif tc, serif; font-size: 1.2em; line-height: 1.6;
+}
+.trending-article:hover{
+  color: #ff6600;
+  cursor: pointer;
 }
 
 
