@@ -13,7 +13,33 @@
   <link rel="stylesheet" href="index.css" />
   <title>換日線 Crossing - 最貼近你的國際新視野</title>
 </head>
-<div>
+<style>
+  h3,
+  h2 {
+    font-family: Noto Sans tc, sans-serif;
+    color: #fff;
+  }
+
+  h3:hover {
+    color: #FF6600;
+    cursor: pointer;
+  }
+
+  h5 {
+    font-family: Noto Sans tc, sans-serif;
+    color: #FF6600;
+    cursor: pointer;
+  }
+  h4{
+    font-family: Noto Sans tc, sans-serif;
+    color: #fff;
+    opacity: 80%;
+    font-weight: 300;
+    font-size: 16px;
+  }
+</style>
+<body>
+  <!-- Header -->
   <nav>
     <img class="logo" src="./co_logo.png" />
     <div class="openMenu"><i class="fa fa-bars"></i></div>
@@ -33,13 +59,16 @@
         <i class="fab fa-twitter"></i>
         <i class="fab fa-github"></i>
       </span>
-      <div style="display: flex; flex-direction: row; justify-content: space-around; width: 70px;">
+      <div class="menuButtonGroup"
+        style="display: flex; flex-direction: row; justify-content: space-around; width: 70px;">
         <i class="fa fa-search" aria-hidden="true"></i>
         <i class="fa fa-file-text" aria-hidden="true"></i>
       </div>
     </ul>
   </nav>
 
+
+  <!-- Slide show carousel -->
   <div style="width: 100vw; background: #001117;">
     <div class="wrapper">
       <input checked type=radio name="slider" id="slide1" />
@@ -47,7 +76,7 @@
       <input type=radio name="slider" id="slide3" />
       <input type=radio name="slider" id="slide4" />
       <input type=radio name="slider" id="slide5" />
-    
+
       <div class="slider-wrapper">
         <div class="inner">
           <article>
@@ -104,7 +133,7 @@
         <!-- .inner -->
       </div>
       <!-- .slider-wrapper -->
-    
+
       <div class="slider-prev-next-control">
         <label for=slide1></label>
         <label for=slide2></label>
@@ -113,7 +142,7 @@
         <label for=slide5></label>
       </div>
       <!-- .slider-prev-next-control -->
-    
+
       <div class="slider-dot-control">
         <label for=slide1></label>
         <label for=slide2></label>
@@ -123,9 +152,53 @@
       </div>
       <!-- .slider-dot-control -->
     </div>
-</div>
+  </div>
   <!-- .slider-dot-control -->
-</div>
+
+
+  <!-- Latest articles -->
+  <div class="flex-container">
+    <div style="display: block;">
+      <h2 style="color: #111111;font-family: Noto Sans tc, sans-serif; font-weight: 700; font-size: 2.5rem;">最新文章</h2>
+      <hr />
+    </div>
+
+    <div class="container">
+      <main class="grid">
+        <article>
+          <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61726bbc3cfc4.jpg"
+            alt="工作經驗 4 年和 13 年的兩位候選人，我錄取了前者：比起年資，「戰略連接」才是致勝關鍵">
+          <div class="text">
+            <h5>求職</h5>
+            <h3>工作經驗 4 年和 13 年的兩位候選人，我錄取了前者：比起年資，「戰略連接」才是致勝關鍵</h3>
+            <h4>對當時的我來說，所謂的「線頭」就是可以提升部門影響力的一些進展，我花了大量時間、精力去思考及尋找，怎麼樣的題目可能讓公司領導層對我及我的部門有點興趣，然後利用領導層對這話題的期待，回頭撬開部門同事的一點改變及一些配合。</h4>
+          </div>
+        </article>
+
+        <article>
+          <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61726602a1b60.jpg"
+            alt="中國官方徹查「劇本殺」產業──身為玩家與創作者，我如何看待「不夠安全」之說">
+          <div class="text">
+            <h5>評論</h5>
+            <h3>中國官方徹查「劇本殺」產業──身為玩家與創作者，我如何看待「不夠安全」之說</h3>
+            <h4>對當時的我來說，所謂的「線頭」就是可以提升部門影響力的一些進展，我花了大量時間、精力去思考及尋找，怎麼樣的題目可能讓公司領導層對我及我的部門有點興趣，然後利用領導層對這話題的期待，回頭撬開部門同事的一點改變及一些配合。</h4>
+          </div>
+        </article>
+
+        <article>
+          <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202104/article-606d8816a3ac8.jpg"
+            alt="74%台灣青年希望以工作改變社會 他從正式老師轉戰房仲實現利他的幸福感">
+          <div class="text">
+            <h5>職涯</h5>
+            <h3>74%台灣青年希望以工作改變社會 他從正式老師轉戰房仲實現利他的幸福感</h3>
+            <h4>對當時的我來說，所謂的「線頭」就是可以提升部門影響力的一些進展，我花了大量時間、精力去思考及尋找，怎麼樣的題目可能讓公司領導層對我及我的部門有點興趣，然後利用領導層對這話題的期待，回頭撬開部門同事的一點改變及一些配合。</h4>
+          </div>
+        </article>
+      </main>
+    </div>
+  </div>
+
+
 
 <script src="./app.js"></script>
 </body>
