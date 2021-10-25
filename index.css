@@ -275,6 +275,18 @@ nav .logo {
   padding-right: 20%;
 }
 
+.grid-trending-article{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-trending-article .grid-trending-article-small{
+  display: grid;
+  grid-template-columns: 12% 80%;
+}
+
+
+/* According different screen size */
 @media (min-width: 100px) and (max-width: 353px) {
   .flex-container {
     padding-left: 2%;
@@ -319,6 +331,11 @@ nav .logo {
     color: #fff;
     opacity: 80%;
   }
+
+  .grid-trending-article{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (min-width: 354px) and (max-width: 500px) {
@@ -361,6 +378,11 @@ nav .logo {
 
   .latest-weekly-article-text h2{
     font-size: 1.3em;
+  }
+
+  .grid-trending-article{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -405,6 +427,11 @@ nav .logo {
   .latest-weekly-article-text h2{
     font-size: 2em;
   }
+
+  .grid-trending-article{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (min-width: 769px) and (max-width: 990px) {
@@ -447,6 +474,11 @@ nav .logo {
   .latest-weekly-article-text h2{
     font-size: 2.3em;
   }
+
+  .grid-trending-article{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
@@ -482,6 +514,11 @@ nav .logo {
 
   .latest-weekly-article-text h2{
     font-size: 2.3em;
+  }
+
+  .grid-trending-article{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
