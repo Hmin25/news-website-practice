@@ -1,446 +1,619 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+      integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o="
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
-    integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css" />
-  <title>換日線 Crossing - 最貼近你的國際新視野</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
 
-<body>
-  <!-- Header -->
-  <nav>
-    <img class="logo" src="https://crossing.cw.com.tw/images/logo.svg" />
-    <div class="openMenu"><i class="fa fa-bars"></i></div>
-    <ul class="mainMenu">
-      <li><a href="#">編輯部原創</a></li>
-      <li><a href="#">策展專區</a></li>
-      <li><a href="#">Crossing Campus</a></li>
-      <li><a href="#">時事現場</a></li>
-      <li><a href="#">海外職場</a></li>
-      <li><a href="#">專欄作者</a></li>
-      <li><a href="#">訂閱季刊</a></li>
-      <br />
-      <div class="closeMenu"><i class="fa fa-times"></i></div>
-      <span class="icons">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-github"></i>
-      </span>
-      <div class="menuButtonGroup"
-        style="display: flex; flex-direction: row; justify-content: space-around; width: 70px;">
-        <i class="fa fa-search" aria-hidden="true"></i>
-        <i class="fa fa-file-text" aria-hidden="true"></i>
-      </div>
-    </ul>
-  </nav>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>換日線 Crossing - 最貼近你的國際新視野</title>
+  </head>
 
-  <!-- Slide show carousel -->
-  <div style="width: 100vw; background: #001117;">
-    <div class="wrapper">
-      <input checked type=radio name="slider" id="slide1" />
-      <input type=radio name="slider" id="slide2" />
-      <input type=radio name="slider" id="slide3" />
-      <input type=radio name="slider" id="slide4" />
-      <input type=radio name="slider" id="slide5" />
-
-      <div class="slider-wrapper">
-        <div class="inner">
-          <article>
-            <div class="info top-left">
-              <h3>
-                「反抗壓迫不該是一個零和遊戲」：脫口秀喜劇演員與頂尖醫學期刊的性別難題
-              </h3>
-            </div>
-            <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61654ee7b61ca.jpg"
-              alt="「反抗壓迫不該是一個零和遊戲」：脫口秀喜劇演員與頂尖醫學期刊的性別難題" />
-          </article>
-
-          <article>
-            <div class="info top-left">
-              <h3>
-                【住進巴西最大貧民窟】六：「窮人就是愛遲到、不守信」？偏見背後，我們想像不到的艱難
-              </h3>
-            </div>
-            <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61691a73645a4.jpg"
-              alt="【住進巴西最大貧民窟】六：「窮人就是愛遲到、不守信」？偏見背後，我們想像不到的艱難" />
-          </article>
-
-          <article>
-            <div class="info top-left">
-              <h3>
-                「遠距工作」公司預計 3 年漲 6
-                倍！如何面對永久常態？專訪遠距工作專家 Christine Orchard
-              </h3>
-            </div>
-            <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-6167f65e3aa6d.jpg"
-              alt="「遠距工作」公司預計 3 年漲 6 倍！如何面對永久常態？專訪遠距工作專家 Christine Orchard" />
-          </article>
-
-          <article>
-            <div class="info top-left">
-              <h3>
-                《大師狂想曲》蔡明亮專訪（上）當國際大導都在拍攝童年，只有他專注當下
-              </h3>
-            </div>
-            <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61663e46b9716.jpg"
-              alt="《大師狂想曲》蔡明亮專訪（上）當國際大導都在拍攝童年，只有他專注當下" />
-          </article>
-
-          <article>
-            <div class="info top-left">
-              <h3>
-                岳飛和孫中山重要嗎？歷史教育的核心是什麼？──從全球最具挑戰性的歷史課談起
-              </h3>
-            </div>
-            <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-6166c46a7d2c8.jpg"
-              alt="岳飛和孫中山重要嗎？歷史教育的核心是什麼？──從全球最具挑戰性的歷史課談起" />
-          </article>
+  <body>
+    <!-- Header -->
+    <nav>
+      <img class="logo" src="https://crossing.cw.com.tw/images/logo.svg" />
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu">
+        <li><a href="#">編輯部原創</a></li>
+        <li><a href="#">策展專區</a></li>
+        <li><a href="#">Crossing Campus</a></li>
+        <li><a href="#">時事現場</a></li>
+        <li><a href="#">海外職場</a></li>
+        <li><a href="#">專欄作者</a></li>
+        <li><a href="#">訂閱季刊</a></li>
+        <br />
+        <div class="closeMenu"><i class="fa fa-times"></i></div>
+        <span class="icons">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-github"></i>
+        </span>
+        <div
+          class="menuButtonGroup"
+          style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 70px;
+          "
+        >
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <i class="fa fa-file-text" aria-hidden="true"></i>
         </div>
-        <!-- .inner -->
-      </div>
-      <!-- .slider-wrapper -->
+      </ul>
+    </nav>
 
-      <div class="slider-prev-next-control">
-        <label for=slide1></label>
-        <label for=slide2></label>
-        <label for=slide3></label>
-        <label for=slide4></label>
-        <label for=slide5></label>
-      </div>
-      <!-- .slider-prev-next-control -->
+    <!-- Slide show carousel -->
+    <div style="width: 100vw; background: #001117">
+      <div class="wrapper">
+        <input checked type="radio" name="slider" id="slide1" />
+        <input type="radio" name="slider" id="slide2" />
+        <input type="radio" name="slider" id="slide3" />
+        <input type="radio" name="slider" id="slide4" />
+        <input type="radio" name="slider" id="slide5" />
 
-      <div class="slider-dot-control">
-        <label for=slide1></label>
-        <label for=slide2></label>
-        <label for=slide3></label>
-        <label for=slide4></label>
-        <label for=slide5></label>
+        <div class="slider-wrapper">
+          <div class="inner">
+            <article>
+              <div class="info top-left">
+                <h3>
+                  「反抗壓迫不該是一個零和遊戲」：脫口秀喜劇演員與頂尖醫學期刊的性別難題
+                </h3>
+              </div>
+              <img
+                src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61654ee7b61ca.jpg"
+                alt="「反抗壓迫不該是一個零和遊戲」：脫口秀喜劇演員與頂尖醫學期刊的性別難題"
+              />
+            </article>
+
+            <article>
+              <div class="info top-left">
+                <h3>
+                  【住進巴西最大貧民窟】六：「窮人就是愛遲到、不守信」？偏見背後，我們想像不到的艱難
+                </h3>
+              </div>
+              <img
+                src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61691a73645a4.jpg"
+                alt="【住進巴西最大貧民窟】六：「窮人就是愛遲到、不守信」？偏見背後，我們想像不到的艱難"
+              />
+            </article>
+
+            <article>
+              <div class="info top-left">
+                <h3>
+                  「遠距工作」公司預計 3 年漲 6
+                  倍！如何面對永久常態？專訪遠距工作專家 Christine Orchard
+                </h3>
+              </div>
+              <img
+                src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-6167f65e3aa6d.jpg"
+                alt="「遠距工作」公司預計 3 年漲 6 倍！如何面對永久常態？專訪遠距工作專家 Christine Orchard"
+              />
+            </article>
+
+            <article>
+              <div class="info top-left">
+                <h3>
+                  《大師狂想曲》蔡明亮專訪（上）當國際大導都在拍攝童年，只有他專注當下
+                </h3>
+              </div>
+              <img
+                src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61663e46b9716.jpg"
+                alt="《大師狂想曲》蔡明亮專訪（上）當國際大導都在拍攝童年，只有他專注當下"
+              />
+            </article>
+
+            <article>
+              <div class="info top-left">
+                <h3>
+                  岳飛和孫中山重要嗎？歷史教育的核心是什麼？──從全球最具挑戰性的歷史課談起
+                </h3>
+              </div>
+              <img
+                src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-6166c46a7d2c8.jpg"
+                alt="岳飛和孫中山重要嗎？歷史教育的核心是什麼？──從全球最具挑戰性的歷史課談起"
+              />
+            </article>
+          </div>
+          <!-- .inner -->
+        </div>
+        <!-- .slider-wrapper -->
+
+        <div class="slider-prev-next-control">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+        </div>
+        <!-- .slider-prev-next-control -->
+
+        <div class="slider-dot-control">
+          <label for="slide1"></label>
+          <label for="slide2"></label>
+          <label for="slide3"></label>
+          <label for="slide4"></label>
+          <label for="slide5"></label>
+        </div>
+        <!-- .slider-dot-control -->
       </div>
-      <!-- .slider-dot-control -->
     </div>
-  </div>
-  <!-- .slider-dot-control -->
+    <!-- .slider-dot-control -->
 
-
-  <!-- Latest articles -->
-  <div class="flex-container">
-    <div style="display: block;">
-      <h2 style="color: #111111;font-family: Noto Sans tc, sans-serif; font-weight: 700; font-size: 2.5rem;">最新文章</h2>
-      <hr />
-    </div>
-  </div>
-
-  <div class="container">
-    <main class="grid">
-      <article>
-        <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61726bbc3cfc4.jpg"
-          alt="工作經驗 4 年和 13 年的兩位候選人，我錄取了前者：比起年資，「戰略連接」才是致勝關鍵">
-        <div class="text">
-          <h5>求職</h5>
-          <h3>工作經驗 4 年和 13 年的兩位候選人，我錄取了前者：比起年資，「戰略連接」才是致勝關鍵</h3>
-          <h4>
-            對當時的我來說，所謂的「線頭」就是可以提升部門影響力的一些進展，我花了大量時間、精力去思考及尋找，怎麼樣的題目可能讓公司領導層對我及我的部門有點興趣，然後利用領導層對這話題的期待，回頭撬開部門同事的一點改變及一些配合。
-          </h4>
-        </div>
-      </article>
-
-      <article>
-        <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61726602a1b60.jpg"
-          alt="中國官方徹查「劇本殺」產業──身為玩家與創作者，我如何看待「不夠安全」之說">
-        <div class="text">
-          <h5>評論</h5>
-          <h3>中國官方徹查「劇本殺」產業──身為玩家與創作者，我如何看待「不夠安全」之說</h3>
-          <h4>前陣子看到報導，近年來劇本殺產業在中國廣泛興起，但由於內容涉及暴力與靈異情節，加上沒有標誌年齡限制，因此官方單位有意從 10 月份開始徹查相關產業，甚至以「消防安全」名義，突襲多家劇本殺遊戲室，並要求其停業。
-          </h4>
-        </div>
-      </article>
-
-      <article>
-        <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202104/article-606d8816a3ac8.jpg"
-          alt="74%台灣青年希望以工作改變社會 他從正式老師轉戰房仲實現利他的幸福感">
-        <div class="text">
-          <h5>職涯</h5>
-          <h3>74%台灣青年希望以工作改變社會 他從正式老師轉戰房仲實現利他的幸福感</h3>
-          <h4>
-            「刻板印象中，也許你會覺得房仲業務要嘛挺著大肚子頂住辦公桌，要嘛嘴唇白、印堂黑，但坐我旁邊的同事卻用『信福幣』上健身房，練出六塊腹肌，熱愛打桌球、考取C級教練的我，也靠『信福幣』自我投資健康，找強者教練練習桌球，維持運動習慣！」信義房屋松江民生店專案經理羅新宇一邊接受專訪，露出幸福的笑容。
-          </h4>
-        </div>
-      </article>
-    </main>
-  </div>
-  <!-- </div> -->
-  <!-- End latest article -->
-
-
-  <!-- Editor's choice -->
-  <div class="flex-container">
-    <div style="display: block;">
-      <h2 style="color: #111111;font-family: Noto Sans tc, sans-serif; font-weight: 700; font-size: 2.5rem;">編輯精選</h2>
-      <hr />
-    </div>
-  </div>
-
-  <div class="container">
-    <main class="grid">
-      <article>
-        <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-616d1aa47fca9.jpg"
-          alt="一位青年亞斯的覺醒：大人說「考上明星高中」就會快樂，我卻發現完全不是">
-        <div class="text">
-          <h5>學習</h5>
-          <h3>一位青年亞斯的覺醒：大人說「考上明星高中」就會快樂，我卻發現完全不是</h3>
-          <h4>
-            有些明星高中確實在別人眼中有點「怪」，但絕對不是指涉因為有一群「亞斯兒」或「自閉兒」在這間學校。學生在學校的人際關係問題，也不會因為到了「明星學校」就會改善，因為該處理的困境仍然沒有被解決。此時唯一有可能過得比較快樂的理由，應該是因為這所學校的人對你「比較友善」或是「學風自由」。
-          </h4>
-        </div>
-      </article>
-
-      <article>
-        <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61721dfbad43d.jpg"
-          alt="商業界的「佛系KOL」，無私傳授 20 多年功──專訪簡報實驗室創辦人、知名講師孫治華">
-        <div class="text">
-          <h5>專訪</h5>
-          <h3>商業界的「佛系KOL」，無私傳授 20 多年功──專訪簡報實驗室創辦人、知名講師孫治華</h3>
-          <h4>孫治華是一個十分與眾不同的講師：他低調內斂、獨來獨往，不跟人換名片，極少參加社交場合，更不搞什麼花俏的「自我行銷」。然而，有其堅強實力、豐富經驗為後盾的分享，讓他備受新創圈和業界專業人士的信賴與尊重。</h4>
-        </div>
-      </article>
-
-      <article>
-        <img src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61724455ec503.jpg"
-          alt="台灣「卡巴迪兄弟」的追夢故事：曾經歷比賽失敗全隊退出，也享受過被寶萊塢巨星招待！">
-        <div class="text">
-          <h5>運動</h5>
-          <h3>台灣「卡巴迪兄弟」的追夢故事：曾經歷比賽失敗全隊退出，也享受過被寶萊塢巨星招待！</h3>
-          <h4>「其中一個卡巴迪在台灣面臨的主要挑戰，是對卡巴迪『缺乏意識』，」他們異口同聲地表示。由於缺乏人氣，沒有足夠的運動員能夠接受完整的訓練，而難以發展出台灣的卡巴迪文化。</h4>
-        </div>
-      </article>
-    </main>
-  </div>
-  <!-- </div> -->
-  <!-- End editor's choice -->
-
-
-  <!-- latest weekly article -->
-  <div class="flex-container-latest-week-article">
-    <div style="display:block; padding-top: 2%;">
-      <h2 style="color: #fff;font-family: Noto Sans tc, sans-serif; font-weight: 700; font-size: 2.5rem;">最新季刊</h2>
-      <hr style="background-color: #fff; opacity: 40%;" />
+    <!-- Latest articles -->
+    <div class="flex-container">
+      <div style="display: block">
+        <h2
+          style="
+            color: #111111;
+            font-family: Noto Sans tc, sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+          "
+        >
+          最新文章
+        </h2>
+        <hr />
+      </div>
     </div>
 
-    <div style="display:flex; flex-direction: row;">
-      <main class="latest-weekly-article">
-        <article class="latest-weekly-article-img">
-          <img alt src="https://storage.googleapis.com/crossing-cms-cwg-tw/ad/202108/ad-611348d19bb45.jpg">
+    <div class="container">
+      <main class="grid">
+        <article>
+          <img
+            src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61726bbc3cfc4.jpg"
+            alt="工作經驗 4 年和 13 年的兩位候選人，我錄取了前者：比起年資，「戰略連接」才是致勝關鍵"
+          />
+          <div class="text">
+            <h5>求職</h5>
+            <h3>
+              工作經驗 4 年和 13
+              年的兩位候選人，我錄取了前者：比起年資，「戰略連接」才是致勝關鍵
+            </h3>
+            <h4>
+              對當時的我來說，所謂的「線頭」就是可以提升部門影響力的一些進展，我花了大量時間、精力去思考及尋找，怎麼樣的題目可能讓公司領導層對我及我的部門有點興趣，然後利用領導層對這話題的期待，回頭撬開部門同事的一點改變及一些配合。
+            </h4>
+          </div>
         </article>
 
-        <article class="latest-weekly-article-textbox">
-          <div class="latest-weekly-article-text">
-            <h2>2021 全球焦點在東京</h2>
+        <article>
+          <img
+            src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61726602a1b60.jpg"
+            alt="中國官方徹查「劇本殺」產業──身為玩家與創作者，我如何看待「不夠安全」之說"
+          />
+          <div class="text">
+            <h5>評論</h5>
             <h3>
-              東京奧運的結束不是句點，全球在疫情下為奧運做出的努力、在日本帶來的影響——無論是社會文化抑或科技趨勢，都將持續改變著東京的現在與未來。身處世界各地的你我，都是東京故事的一份子。</text>
-              <!-- <button>Read more..</button> -->
+              中國官方徹查「劇本殺」產業──身為玩家與創作者，我如何看待「不夠安全」之說
+            </h3>
+            <h4>
+              前陣子看到報導，近年來劇本殺產業在中國廣泛興起，但由於內容涉及暴力與靈異情節，加上沒有標誌年齡限制，因此官方單位有意從
+              10
+              月份開始徹查相關產業，甚至以「消防安全」名義，突襲多家劇本殺遊戲室，並要求其停業。
+            </h4>
+          </div>
+        </article>
+
+        <article>
+          <img
+            src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202104/article-606d8816a3ac8.jpg"
+            alt="74%台灣青年希望以工作改變社會 他從正式老師轉戰房仲實現利他的幸福感"
+          />
+          <div class="text">
+            <h5>職涯</h5>
+            <h3>
+              74%台灣青年希望以工作改變社會 他從正式老師轉戰房仲實現利他的幸福感
+            </h3>
+            <h4>
+              「刻板印象中，也許你會覺得房仲業務要嘛挺著大肚子頂住辦公桌，要嘛嘴唇白、印堂黑，但坐我旁邊的同事卻用『信福幣』上健身房，練出六塊腹肌，熱愛打桌球、考取C級教練的我，也靠『信福幣』自我投資健康，找強者教練練習桌球，維持運動習慣！」信義房屋松江民生店專案經理羅新宇一邊接受專訪，露出幸福的笑容。
+            </h4>
           </div>
         </article>
       </main>
     </div>
-  </div>
-  <!-- End latest weekly article -->
+    <!-- </div> -->
+    <!-- End latest article -->
 
-
-  <!-- trending article -->
-  <div class="flex-container-trending-article">
-    <div style="display:block; padding-top: 2%;">
-      <h2 style="color: #111111;font-family: Noto Sans tc, sans-serif; font-weight: 700; font-size: 2.5rem;">熱門文章</h2>
-      <hr />
-    </div>
-
-    <div style="display:flex; flex-direction: row;">
-      <div class="grid-trending-article">
-
-        <div class="grid-trending-article-small">
-
-          <div style="grid-row: 1 / span 2; ">
-            <h1>1</h1>
-          </div>
-
-          <div>
-            <h5>時事</h5>
-          </div>
-
-          <div>
-            <h4 class="trending-article">
-              中共「六中全會」：在傳統大換屆前夕，替習近平「又連任了」找個說法，就從定調歷史做起？（BBC News 中文）</h4>
-          </div>
-
-          <hr />
-
-        </div>
-
-        <div class="grid-trending-article-small">
-
-          <div style="grid-row: 1 / span 2; width: 20%;">
-            <h1>2</h1>
-          </div>
-
-          <div>
-            <h5>時事</h5>
-          </div>
-
-          <div>
-            <h4 class="trending-article">
-              權勢性侵醜聞又一樁：加國 80 歲時裝大亨性侵事件，與背後的巨大黑幕</h4>
-          </div>
-
-          <hr />
-
-        </div>
-
-        <div class="grid-trending-article-small">
-
-          <div style="grid-row: 1 / span 2; width: 20%;">
-            <h1>3</h1>
-          </div>
-
-          <div>
-            <h5>學習</h5>
-          </div>
-
-          <div>
-            <h4 class="trending-article">
-              「能夠上台大，為甚麼不去？」──我和雙胞胎弟弟的真實故事</h4>
-          </div>
-
-          <hr />
-
-        </div>
-
-        <div class="grid-trending-article-small">
-
-          <div style="grid-row: 1 / span 2; width: 20%;">
-            <h1>4</h1>
-          </div>
-
-          <div>
-            <h5>歷史</h5>
-          </div>
-
-          <div>
-            <h4 class="trending-article">
-              【歐洲連線──歷史篇】當情報文件被解密，你會調閱個人檔案，還是與過去和解？──前東德人的淚水與歡呼</h4>
-          </div>
-
-          <hr />
-
-        </div>
-
-        <div class="grid-trending-article-small">
-
-          <div style="grid-row: 1 / span 2; width: 20%;">
-            <h1>5</h1>
-          </div>
-
-          <div>
-            <h5>學習</h5>
-          </div>
-
-          <div>
-            <h4 class="trending-article">
-              撕掉「好成績」標籤，我還剩下什麼？──若妳「想念」北一女，讓我告訴妳它教我的 5 堂課</h4>
-          </div>
-
-          <hr />
-
-        </div>
-
-        <div class="grid-trending-article-small">
-
-          <div style="grid-row: 1 / span 2; width: 20%;">
-            <h1>6</h1>
-          </div>
-
-          <div>
-            <h5>評論</h5>
-          </div>
-
-          <div>
-            <h4 class="trending-article">
-              嬰兒有道德感嗎？──當我深入挖掘寶寶研究的世界，很快就樂觀不起來</h4>
-          </div>
-
-          <hr />
-
-        </div>
-
+    <!-- Editor's choice -->
+    <div class="flex-container">
+      <div style="display: block">
+        <h2
+          style="
+            color: #111111;
+            font-family: Noto Sans tc, sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+          "
+        >
+          編輯精選
+        </h2>
+        <hr />
       </div>
     </div>
-  </div>
-  <!-- End trending article -->
 
+    <div class="container">
+      <main class="grid">
+        <article>
+          <img
+            src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-616d1aa47fca9.jpg"
+            alt="一位青年亞斯的覺醒：大人說「考上明星高中」就會快樂，我卻發現完全不是"
+          />
+          <div class="text">
+            <h5>學習</h5>
+            <h3>
+              一位青年亞斯的覺醒：大人說「考上明星高中」就會快樂，我卻發現完全不是
+            </h3>
+            <h4>
+              有些明星高中確實在別人眼中有點「怪」，但絕對不是指涉因為有一群「亞斯兒」或「自閉兒」在這間學校。學生在學校的人際關係問題，也不會因為到了「明星學校」就會改善，因為該處理的困境仍然沒有被解決。此時唯一有可能過得比較快樂的理由，應該是因為這所學校的人對你「比較友善」或是「學風自由」。
+            </h4>
+          </div>
+        </article>
 
-  <!-- footer -->
-  <div class="flex-container-footer">
+        <article>
+          <img
+            src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61721dfbad43d.jpg"
+            alt="商業界的「佛系KOL」，無私傳授 20 多年功──專訪簡報實驗室創辦人、知名講師孫治華"
+          />
+          <div class="text">
+            <h5>專訪</h5>
+            <h3>
+              商業界的「佛系KOL」，無私傳授 20
+              多年功──專訪簡報實驗室創辦人、知名講師孫治華
+            </h3>
+            <h4>
+              孫治華是一個十分與眾不同的講師：他低調內斂、獨來獨往，不跟人換名片，極少參加社交場合，更不搞什麼花俏的「自我行銷」。然而，有其堅強實力、豐富經驗為後盾的分享，讓他備受新創圈和業界專業人士的信賴與尊重。
+            </h4>
+          </div>
+        </article>
 
-    <div style="display:flex; flex-direction: row; width: 100%;">
-      <div class="grid-footer">
+        <article>
+          <img
+            src="https://storage.googleapis.com/crossing-cms-cwg-tw/article/202110/article-61724455ec503.jpg"
+            alt="台灣「卡巴迪兄弟」的追夢故事：曾經歷比賽失敗全隊退出，也享受過被寶萊塢巨星招待！"
+          />
+          <div class="text">
+            <h5>運動</h5>
+            <h3>
+              台灣「卡巴迪兄弟」的追夢故事：曾經歷比賽失敗全隊退出，也享受過被寶萊塢巨星招待！
+            </h3>
+            <h4>
+              「其中一個卡巴迪在台灣面臨的主要挑戰，是對卡巴迪『缺乏意識』，」他們異口同聲地表示。由於缺乏人氣，沒有足夠的運動員能夠接受完整的訓練，而難以發展出台灣的卡巴迪文化。
+            </h4>
+          </div>
+        </article>
+      </main>
+    </div>
+    <!-- </div> -->
+    <!-- End editor's choice -->
 
-        <div style="position: relative;">
-          <img class="footer-logo" src="https://crossing.cw.com.tw/images/logo.svg" />
+    <!-- latest weekly article -->
+    <div class="flex-container-latest-week-article">
+      <div style="display: block; padding-top: 2%">
+        <h2
+          style="
+            color: #fff;
+            font-family: Noto Sans tc, sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+          "
+        >
+          最新季刊
+        </h2>
+        <hr style="background-color: #fff; opacity: 40%" />
+      </div>
+
+      <div style="display: flex; flex-direction: row">
+        <main class="latest-weekly-article">
+          <article class="latest-weekly-article-img">
+            <img
+              alt
+              src="https://storage.googleapis.com/crossing-cms-cwg-tw/ad/202108/ad-611348d19bb45.jpg"
+            />
+          </article>
+
+          <article class="latest-weekly-article-textbox">
+            <div class="latest-weekly-article-text">
+              <h2>2021 全球焦點在東京</h2>
+              <h3>
+                東京奧運的結束不是句點，全球在疫情下為奧運做出的努力、在日本帶來的影響——無論是社會文化抑或科技趨勢，都將持續改變著東京的現在與未來。身處世界各地的你我，都是東京故事的一份子。
+              </h3>
+              <!-- <button>Read more..</button> -->
+            </div>
+          </article>
+        </main>
+      </div>
+    </div>
+    <!-- End latest weekly article -->
+
+    <!-- Insta carousel -->
+    <div
+      class="insta-text"
+    >
+      <h2>
+        INSTAGRAM
+      </h2>
+      <hr style="margin-top:0; border-radius: 0; height:3px; color: #FF6600; background-color: #FF6600;"/>
+      <div style="display: flex; flex-direction: row;">
+      <a href="https://www.instagram.com/crossing.tw/"><button class="follow-crossing-tw">FOLLOW @crossing.tw > </button></a>
+      <!-- <svg class="icon icon-arrow-right2" style="width: 5px;"><use xlink:href="#icon-arrow-right2"></use></svg> -->
+    </div>
+    </div>
+    <div
+      class="owl-carousel"
+      style="
+        display: flex;
+        font-size: 0.5em;
+        overflow-y: hidden;
+        margin-top: 5%;
+        height: 17vh;
+        background: #001117;
+      "
+    >
+      <img
+        class="item"
+        src="https://instagram.fkul15-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/245630823_603807290658494_8317165245445861200_n.jpg?_nc_ht=instagram.fkul15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=lAgDtPRAayMAX_E__hA&edm=AABBvjUBAAAA&ccb=7-4&oh=1d478a5a3d5269ff43e81471216641c1&oe=617E0F50&_nc_sid=83d603"
+        style="width: 100%"
+        alt="【Podcast 節目搬新家】天下雜誌 Podcast 推出新頻道 #闖天下！換日線的節目 #換日線制級 也搬到新家了，期待透過新頻道更細緻的內容分類，提供大家更優質的收聽..."
+      />
+      <img
+        class="item"
+        src="https://instagram.fkul15-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/245630823_603807290658494_8317165245445861200_n.jpg?_nc_ht=instagram.fkul15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=lAgDtPRAayMAX_E__hA&edm=AABBvjUBAAAA&ccb=7-4&oh=1d478a5a3d5269ff43e81471216641c1&oe=617E0F50&_nc_sid=83d603"
+        style="width: 100%"
+        alt="【Podcast 節目搬新家】天下雜誌 Podcast 推出新頻道 #闖天下！換日線的節目 #換日線制級 也搬到新家了，期待透過新頻道更細緻的內容分類，提供大家更優質的收聽..."
+      />
+      <img
+        class="item"
+        src="https://instagram.fkul15-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/245630823_603807290658494_8317165245445861200_n.jpg?_nc_ht=instagram.fkul15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=lAgDtPRAayMAX_E__hA&edm=AABBvjUBAAAA&ccb=7-4&oh=1d478a5a3d5269ff43e81471216641c1&oe=617E0F50&_nc_sid=83d603"
+        style="width: 100%"
+        alt="【Podcast 節目搬新家】天下雜誌 Podcast 推出新頻道 #闖天下！換日線的節目 #換日線制級 也搬到新家了，期待透過新頻道更細緻的內容分類，提供大家更優質的收聽..."
+      />
+      <img
+        class="item"
+        src="https://instagram.fkul15-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/245630823_603807290658494_8317165245445861200_n.jpg?_nc_ht=instagram.fkul15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=lAgDtPRAayMAX_E__hA&edm=AABBvjUBAAAA&ccb=7-4&oh=1d478a5a3d5269ff43e81471216641c1&oe=617E0F50&_nc_sid=83d603"
+        style="width: 100%"
+        alt="【Podcast 節目搬新家】天下雜誌 Podcast 推出新頻道 #闖天下！換日線的節目 #換日線制級 也搬到新家了，期待透過新頻道更細緻的內容分類，提供大家更優質的收聽..."
+      />
+      <img
+        class="item"
+        src="https://instagram.fkul15-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/245630823_603807290658494_8317165245445861200_n.jpg?_nc_ht=instagram.fkul15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=lAgDtPRAayMAX_E__hA&edm=AABBvjUBAAAA&ccb=7-4&oh=1d478a5a3d5269ff43e81471216641c1&oe=617E0F50&_nc_sid=83d603"
+        style="width: 100%"
+        alt="【Podcast 節目搬新家】天下雜誌 Podcast 推出新頻道 #闖天下！換日線的節目 #換日線制級 也搬到新家了，期待透過新頻道更細緻的內容分類，提供大家更優質的收聽..."
+      />
+      <img
+        class="item"
+        src="https://instagram.fkul15-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/245630823_603807290658494_8317165245445861200_n.jpg?_nc_ht=instagram.fkul15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=lAgDtPRAayMAX_E__hA&edm=AABBvjUBAAAA&ccb=7-4&oh=1d478a5a3d5269ff43e81471216641c1&oe=617E0F50&_nc_sid=83d603"
+        style="width: 100%"
+        alt="【Podcast 節目搬新家】天下雜誌 Podcast 推出新頻道 #闖天下！換日線的節目 #換日線制級 也搬到新家了，期待透過新頻道更細緻的內容分類，提供大家更優質的收聽..."
+      />
+      <img
+        class="item"
+        src="https://instagram.fkul15-1.fna.fbcdn.net/v/t51.2885-15/fr/e15/s1080x1080/245630823_603807290658494_8317165245445861200_n.jpg?_nc_ht=instagram.fkul15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=lAgDtPRAayMAX_E__hA&edm=AABBvjUBAAAA&ccb=7-4&oh=1d478a5a3d5269ff43e81471216641c1&oe=617E0F50&_nc_sid=83d603"
+        style="width: 100%"
+        alt="【Podcast 節目搬新家】天下雜誌 Podcast 推出新頻道 #闖天下！換日線的節目 #換日線制級 也搬到新家了，期待透過新頻道更細緻的內容分類，提供大家更優質的收聽..."
+      />
+    </div>
+    <!-- End Insta Carousel -->
+
+    <!-- trending article -->
+    <div class="flex-container-trending-article">
+      <div style="display: block; padding-top: 2%">
+        <h2
+          style="
+            color: #111111;
+            font-family: Noto Sans tc, sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+          "
+        >
+          熱門文章
+        </h2>
+        <hr />
+      </div>
+
+      <div style="display: flex; flex-direction: row">
+        <div class="grid-trending-article">
+          <div class="grid-trending-article-small">
+            <div style="grid-row: 1 / span 2">
+              <h1>1</h1>
+            </div>
+
+            <div>
+              <h5>時事</h5>
+            </div>
+
+            <div>
+              <h4 class="trending-article">
+                中共「六中全會」：在傳統大換屆前夕，替習近平「又連任了」找個說法，就從定調歷史做起？（BBC
+                News 中文）
+              </h4>
+            </div>
+
+            <hr />
+          </div>
+
+          <div class="grid-trending-article-small">
+            <div style="grid-row: 1 / span 2; width: 20%">
+              <h1>2</h1>
+            </div>
+
+            <div>
+              <h5>時事</h5>
+            </div>
+
+            <div>
+              <h4 class="trending-article">
+                權勢性侵醜聞又一樁：加國 80 歲時裝大亨性侵事件，與背後的巨大黑幕
+              </h4>
+            </div>
+
+            <hr />
+          </div>
+
+          <div class="grid-trending-article-small">
+            <div style="grid-row: 1 / span 2; width: 20%">
+              <h1>3</h1>
+            </div>
+
+            <div>
+              <h5>學習</h5>
+            </div>
+
+            <div>
+              <h4 class="trending-article">
+                「能夠上台大，為甚麼不去？」──我和雙胞胎弟弟的真實故事
+              </h4>
+            </div>
+
+            <hr />
+          </div>
+
+          <div class="grid-trending-article-small">
+            <div style="grid-row: 1 / span 2; width: 20%">
+              <h1>4</h1>
+            </div>
+
+            <div>
+              <h5>歷史</h5>
+            </div>
+
+            <div>
+              <h4 class="trending-article">
+                【歐洲連線──歷史篇】當情報文件被解密，你會調閱個人檔案，還是與過去和解？──前東德人的淚水與歡呼
+              </h4>
+            </div>
+
+            <hr />
+          </div>
+
+          <div class="grid-trending-article-small">
+            <div style="grid-row: 1 / span 2; width: 20%">
+              <h1>5</h1>
+            </div>
+
+            <div>
+              <h5>學習</h5>
+            </div>
+
+            <div>
+              <h4 class="trending-article">
+                撕掉「好成績」標籤，我還剩下什麼？──若妳「想念」北一女，讓我告訴妳它教我的
+                5 堂課
+              </h4>
+            </div>
+
+            <hr />
+          </div>
+
+          <div class="grid-trending-article-small">
+            <div style="grid-row: 1 / span 2; width: 20%">
+              <h1>6</h1>
+            </div>
+
+            <div>
+              <h5>評論</h5>
+            </div>
+
+            <div>
+              <h4 class="trending-article">
+                嬰兒有道德感嗎？──當我深入挖掘寶寶研究的世界，很快就樂觀不起來
+              </h4>
+            </div>
+
+            <hr />
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- End trending article -->
 
-        <div class="grid-content-footer">
-          <span style="color: #fff; cursor: pointer; font-size: 2rem;">
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-github"></i>
-          </span>
+    <!-- footer -->
+    <div class="flex-container-footer">
+      <div style="display: flex; flex-direction: row; width: 100%">
+        <div class="grid-footer">
+          <div style="position: relative">
+            <img
+              class="footer-logo"
+              src="https://crossing.cw.com.tw/images/logo.svg"
+            />
+          </div>
 
-          <div class="footer-nav">
-            <a href="https://crossing.cw.com.tw/about#history">
-              <h4>
-                大事記
-                </h4>
+          <div class="grid-content-footer">
+            <span style="color: #fff; cursor: pointer; font-size: 2rem">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-github"></i>
+            </span>
+
+            <div class="footer-nav">
+              <a href="https://crossing.cw.com.tw/about#history">
+                <h4>大事記</h4>
               </a>
               <a href="https://crossing.cw.com.tw/about">
-                <h4>
-                  團隊成員
-                </h4>
+                <h4>團隊成員</h4>
               </a>
               <a href="https://crossing.cw.com.tw/magazine">
-                <h4>
-                歷年季刊
-                </h4>
+                <h4>歷年季刊</h4>
               </a>
+            </div>
 
-          </div>
-
-          <div class="footer-copyright">
-          <h6>Copyright © 2021 天下雜誌. All rights reserved. 版權所有，禁止擅自轉貼節錄</h6>
-          <div class="footer-copyright-terms">
-          <h6 class="terms-con">隱私權政策</h6>
-          <h6 class="terms-con">著作權聲明</h6>
-          </div>
+            <div class="footer-copyright">
+              <h6>
+                Copyright © 2021 天下雜誌. All rights reserved.
+                版權所有，禁止擅自轉貼節錄
+              </h6>
+              <div class="footer-copyright-terms">
+                <h6 class="terms-con">隱私權政策</h6>
+                <h6 class="terms-con">著作權聲明</h6>
+              </div>
+            </div>
           </div>
         </div>
-
-
       </div>
     </div>
-  </div>
-  <!-- End footer -->
+    <!-- End footer -->
 
-
-  <script src="./app.js"></script>
-</body>
-
+    <script src="./app.js"></script>
+  </body>
 </html>
