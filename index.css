@@ -359,6 +359,51 @@ nav .logo {
   opacity: 100%;
 }
 
+/* owl carousel */
+.insta-text {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  margin-top: 5%;
+  height: 17vh;
+  background: #fff;
+  opacity: 75%;
+  position: absolute;
+  width: 18%;
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-left: 2%;
+  z-index: 8;
+}
+
+.insta-text h2 {
+  color: #001117;
+  font-family: Lato sans-serif, sans-serif;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+
+.follow-crossing-tw {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: #001117;
+  height: 50px;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  opacity: 100%;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.follow-crossing-tw:hover {
+  background-color: #ff6600;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+
 /* According different screen size */
 @media (min-width: 100px) and (max-width: 353px) {
   .flex-container {
@@ -438,6 +483,31 @@ nav .logo {
   .footer-copyright-terms {
     flex-direction: row;
     padding-left: 60px;
+  }
+
+  .insta-text {
+    height: 17vh;
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 2%;
+    z-index: 8;
+  }
+  
+  .insta-text h2 {
+    font-size: 0.8rem;
+  }
+  
+  .follow-crossing-tw {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #001117;
+    height: 50px;
+    text-align: left;
+    opacity: 100%;
+    width: 100%;
+    font-size: 0.6rem;
   }
 }
 
@@ -522,6 +592,31 @@ nav .logo {
     flex-direction: row;
     padding-left: 60px;
   }
+
+  .insta-text {
+    height: 17vh;
+    width: 40%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 2%;
+    z-index: 8;
+  }
+  
+  .insta-text h2 {
+    font-size: 0.8rem;
+  }
+  
+  .follow-crossing-tw {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #001117;
+    height: 50px;
+    text-align: left;
+    opacity: 100%;
+    width: 100%;
+    font-size: 0.6rem;
+  }
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
@@ -586,6 +681,43 @@ nav .logo {
     width: 200px;
     height: 120px;
   }
+
+  .insta-text {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    margin-top: 5%;
+    height: 17vh;
+    background: #fff;
+    opacity: 75%;
+    position: absolute;
+    width: 30%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 2%;
+    z-index: 8;
+  }
+  
+  .insta-text h2 {
+    color: #001117;
+    font-family: Lato sans-serif, sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+  }
+  
+  .follow-crossing-tw {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #001117;
+    height: 50px;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    opacity: 100%;
+    width: 100%;
+    margin-bottom: 2%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 990px) {
@@ -644,6 +776,43 @@ nav .logo {
     width: 250px;
     height: 120px;
   }
+
+  .insta-text {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    margin-top: 5%;
+    height: 17vh;
+    background: #fff;
+    opacity: 75%;
+    position: absolute;
+    width: 30%;
+    margin-left: 10%;
+    padding-top: 1%;
+    padding-left: 2%;
+    z-index: 8;
+  }
+  
+  .insta-text h2 {
+    color: #001117;
+    font-family: Lato sans-serif, sans-serif;
+    font-weight: 700;
+    font-size: 1.7rem;
+  }
+  
+  .follow-crossing-tw {
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: #001117;
+    height: 50px;
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    opacity: 100%;
+    width: 100%;
+    margin-bottom: 2%;
+  }
 }
 
 @media (min-width: 991px) and (max-width: 1199px) {
@@ -656,7 +825,7 @@ nav .logo {
   }
 
   .flex-container-latest-week-article {
-    height: 60vh;
+    height: 70vh;
     padding-left: 8%;
     padding-right: 8%;
   }
@@ -696,6 +865,43 @@ nav .logo {
     width: 250px;
     height: 120px;
   }
+
+  .insta-text {
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  margin-top: 5%;
+  height: 17vh;
+  background: #fff;
+  opacity: 75%;
+  position: absolute;
+  width: 30%;
+  margin-left: 10%;
+  padding-top: 1%;
+  padding-left: 2%;
+  z-index: 8;
+}
+
+.insta-text h2 {
+  color: #001117;
+  font-family: Lato sans-serif, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.follow-crossing-tw {
+  background: none;
+  border: none;
+  text-decoration: none;
+  color: #001117;
+  height: 20px;
+  text-align: left;
+  padding-top: 2%;
+  padding-bottom: 3%;
+  opacity: 100%;
+  width: 100%;
+  margin-bottom: 2%;
+}
 }
 
 @media (min-width: 1200px) and (max-width: 1280px) {
@@ -743,50 +949,6 @@ nav .logo {
     width: 250px;
     height: 120px;
   }
-}
-
-/* owl carousel */
-.insta-text {
-  display: flex;
-  flex-direction: column;
-  overflow-y: hidden;
-  margin-top: 5%;
-  height: 17vh;
-  background: #fff;
-  opacity: 75%;
-  position: absolute;
-  width: 18%;
-  margin-left: 10%;
-  padding-top: 1%;
-  padding-left: 2%;
-  z-index: 8;
-}
-
-.insta-text h2 {
-  color: #001117;
-  font-family: Lato sans-serif, sans-serif;
-  font-weight: 700;
-  font-size: 1.7rem;
-}
-
-.follow-crossing-tw {
-  background: none;
-  border: none;
-  text-decoration: none;
-  color: #001117;
-  height: 50px;
-  text-align: left;
-  padding-top: 2%;
-  padding-bottom: 3%;
-  opacity: 100%;
-  width: 100%;
-  margin-bottom: 2%;
-}
-
-.follow-crossing-tw:hover {
-  background-color: #ff6600;
-  cursor: pointer;
-  font-weight: 500;
 }
 
 /*---- NUMBER OF SLIDE CONFIGURATION ----*/
